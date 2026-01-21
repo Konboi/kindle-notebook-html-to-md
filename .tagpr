@@ -1,0 +1,8 @@
+# config file for the tagpr in git config format
+# The tagpr generates the initial configuration, which you can rewrite to suit your environment.
+# CAUTION: This file is for tagpr configuration and is different from the ".github/tagpr.yml"
+#          arrow-style configuration file for the GitHub App version of tagpr.
+[tagpr]
+	vPrefix = true
+	releaseBranch = main
+	versionFile = -
