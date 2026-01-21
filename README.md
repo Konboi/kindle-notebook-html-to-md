@@ -1,8 +1,8 @@
 # knh2md
 
-A CLI tool to convert Kindle Notebook HTML to Obsidian-compatible Markdown.
+A CLI tool to convert Kindle Notebook HTML to Markdown.
 
-Converts HTML files exported from the Kindle app's "Export Notebook" feature into Markdown format for easy management in Obsidian and other note-taking tools.
+Converts HTML files exported from the Kindle app's "Export Notebook" feature into Markdown format.
 
 ## Installation
 
@@ -26,9 +26,6 @@ knh2md input.html
 
 # Output to file
 knh2md input.html -o output.md
-
-# Output directly to Obsidian vault
-knh2md input.html -o ~/Obsidian/Kindle/book-name.md
 
 # Use custom template
 knh2md input.html -t custom.tmpl -o output.md

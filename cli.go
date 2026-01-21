@@ -9,7 +9,7 @@ import (
 
 const (
 	appName        = "knh2md"
-	appDescription = "Convert Kindle Notebook HTML to Obsidian-compatible Markdown"
+	appDescription = "Convert Kindle Notebook HTML to Markdown"
 )
 
 // CLI represents the command-line interface
